@@ -1,0 +1,9 @@
+/* ===== Sobre nosotros ===== */
+.container { max-width: 800px; margin: 40px auto; padding: 0 20px; width: 100%; }
+
+.card { background: white; padding: 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); margin-bottom: 20px; }
+.card.alt { background: #e6ecf5; }
+.card h2 { color: #002147; margin-bottom: 10px; }
+
+.integrantes { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; text-align: center; margin-top: 15px; }
+.integrantes div { background: #f0f4f9; padding: 15px; border-radius: 12px; font-weight: bold; color: #002147; }

@@ -1,0 +1,17 @@
+/* ===== Notificaciones ===== */
+.container { max-width: 800px; margin: 40px auto; padding: 0 20px; width: 100%; }
+.container h2 { color: #002147; text-align: center; margin-bottom: 8px; }
+p.subtitle { text-align: center; color: #666; font-size: 14px; margin-bottom: 25px; }
+
+.aviso-card {
+    background: white;
+    padding: 22px 25px;
+    border-radius: 12px;
+    border-left: 6px solid #004080;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 18px;
+}
+.aviso-card h3 { color: #002147; margin-bottom: 4px; }
+.aviso-card .fecha { font-size: 12px; color: #888; margin-bottom: 10px; }
+.aviso-card p { color: #444; line-height: 1.5; }
+.vacio { text-align: center; color: #666; background: white; padding: 25px; border-radius: 12px; }

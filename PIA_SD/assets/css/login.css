@@ -1,0 +1,55 @@
+/* ===== Login ===== */
+.login-wrapper {
+    max-width: 450px;
+    width: calc(100% - 30px);
+    margin: 40px auto;
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-wrapper h2 { color: #002147; text-align: center; margin-bottom: 8px; }
+.login-wrapper p.desc { text-align: center; font-size: 14px; color: #666; margin-bottom: 25px; }
+
+.form-group { margin-bottom: 15px; }
+
+.actions { display: flex; justify-content: space-between; align-items: center; font-size: 13px; margin: 15px 0 20px 0; }
+.actions label { margin: 0; font-weight: normal; font-size: 13px; }
+.actions a { color: #004080; text-decoration: none; }
+
+button { font-size: 16px; }
+
+.register { text-align: center; margin-top: 20px; font-size: 13px; color: #666; }
+.register a { color: #004080; text-decoration: none; font-weight: bold; }
+
+.password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-wrapper input {
+    padding-right: 42px;
+    width: 100%;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    cursor: pointer;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-password:hover {
+    color: #002147;
+    background: none;
+}
